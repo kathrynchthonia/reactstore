@@ -1,5 +1,5 @@
 .primary-overlay {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   top: 0;
   left: 0;
@@ -9,9 +9,30 @@
 }
 
 .main-header {
-  background: url(../img/background.jpg);
+  background: url(./img/background.jpg);
   background-size: cover;
   background-position: center;
   min-height: 600px;
   color: #fff;
+}
+
+.main-header .showcase {
+  padding-top: 100px;
+}
+
+.main-header-inner {
+  background: url(./img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+
+.main-header-inner .showcase {
+  padding-top: 50px;
+}
+
+.active-link {
+  color: #3f51b5;
+  font-weight: bold;
 }
